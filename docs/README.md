@@ -1,8 +1,8 @@
-# Timeless and Classics Mod Guide
+# Timeless and Classics Modガイド
 
-![Icon](/icon.png)
+![アイコン](/icon.png)
 
- - [Gunpack Building Guide](./gunpack)
- - [Model Building Guide](./model_guide)
+ - [ガンパック制作ガイド](./gunpack)
+ - [モデル制作ガイド](./model_guide)
 
- Made for Mod Version: v1.0.1
+ 以下のバージョンの為に作られました: v1.0.1
