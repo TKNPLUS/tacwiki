@@ -1,41 +1,41 @@
-# Part One · Software Preferences
-- **Software and Formats**
-- **Preference Settings**
-- **Plugins**
+# 第一章　ソフトの環境設定
+- **ソフトとフォーマット**
+- **環境設定**
+- **プラグイン**
 
-## Software and Formats
-We use **Blockbench** as our software, which you can [download](https://www.blockbench.net/) by searching on Google.
-When building models, we recommend using the **Free Model Format**, which you can later convert to the Bedrock Edition format.
-The advantage of the Free Model Format is that it supports multiple textures while having all the features of the Bedrock Edition.
-However, please note that the model format used in the game will still be the Bedrock model format, so merge all textures before converting the model.
+## ソフトとフォーマット
+標準ソフトとして**Blockbench**というものを使います。[ここ](https://www.blockbench.net/)か検索すれば出てきます。
+モデリングをするとき、**Free Model Format**を使用するのを推奨します。あとでBedrock Editon Formatに変換できますしね。
+Free Model Formatの何がいいかと言えば、Bedrock Editionの機能をすべて備えたまま複数のテスクチャをサポートしているというところです。
+でも、 実際に使うモデルのフォーマットはBedrock model formatなので、モデルを変換する前にテスクチャはすべて統合しておきましょう。
 
-![New Format](./new.png)
+![新規フォーマット](./new.png)
 
-## Preference Settings
-Go to File/Preferences/Settings and ensure the settings are as follows:
+## 環境設定
+File/環境設定/設定に行って、設定が以下のようになっているか確認しましょう。:
 
-![Settings](./settings.png) 
+![設定](./settings.png) 
 
- ![Snapping Settings](./snapping.png)
+ ![スナップ](./snapping.png)
 
->**The main purpose of the snapping settings is to ensure the correct multiplier relationship for multiple hotkey operations, preventing alignment issues when moving blocks using function keys.**
+>**スナップの設定の主な目的は、複数のホットキー操作でもいい感じのグリッドの間隔になるようにして。ショートカットボタンを使用してブロックを移動するときの位置合わせのなんじゃもんじゃを防ぐことです。**
 
-Additionally, click the three dots at the end of the toolbar to customize it and add the following keys to simplify modeling operations:
+次に、ツールバーの右端にある3つの点をクリックしてカスタマイズして、モデリング作業を楽にするために以下のボタンを追加します。:
 
-**Flip X Axis, Flip Y Axis, Flip Z Axis, Center X Axis, Center Y Axis, Center Z Axis, Center All**
+**Flip X Axis, Flip Y Axis, Flip Z Axis, Center X Axis, Center Y Axis, Center Z Axis, Center All**（全部英語です。許して;;）
 
-![Customize Toolbar](./customize.png)
+![ツールバーのカスタマイズ](./customize.png)
 
-![Add Shortcut Functions](./add.png)
+![ショートカットキーを追加する](./add.png)
 
-## Plugins
-The recommended plugins are **Shape Generator** and **Cameras**. These plugins allow you to generate solid and hollow octagons and hexadecagons on the XYZ axes.
+## プラグイン
+絶対入れたほうがいいプラグインに **Shape Generator** と **Cameras**があります。 こいつらを使うと、XYZ軸上にソリッド（全部埋まってるやつ）とかホロー（中が空洞のやつ）の8角形と6角形を生成できます。
 
-Go to "File/Plugins", search for Shape Generator, and install it.
+"File/プラグイン"に行って、Shape Generatorを探してインストールしましょう。
 
-![Add Plugin](./add_plugin.png)
+![プラグインの追加](./add_plugin.png)
 
-![Search Plugin](./serch_plugin.png)
+![プラグインの検索](./serch_plugin.png)
 
-![Shape Generator Plugin Page](./shapeg.png)
-The **Cameras plugin** will be useful for determining specific game perspectives and item displays for the gun, with detailed operations explained later in the document.
+![Shape Generatorプラグインのページ](./shapeg.png)
+**Cameras plugin**は、特定の視点を作ったりアイテム表示の時の画像の撮影だったりに役立ったりしますが、詳しくは後で説明します。
