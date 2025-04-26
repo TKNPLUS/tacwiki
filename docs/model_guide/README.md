@@ -1,9 +1,9 @@
-# TaCZ Mod Model Building Guide
+# TaCZ Modモデリングガイド
 
-![icon](./icon.png)
+![アイコン](./icon.png)
 
 BY NekoCrane
 
-- [Software Preference Settings](/model_guide/setting)
-- [Creating Your Project](/model_guide/model)
-- [Texturing and Coloring](/model_guide/texture)
+- [ソフトの環境設定](/model_guide/setting)
+- [新規プロジェクトの作成](/model_guide/model)
+- [テクスチャとカラーリング](/model_guide/texture)
